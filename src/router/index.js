@@ -19,3 +19,23 @@ const router = createRouter({
 });
 
 export default router;
+
+
+
+
+class FullStackWebDeveloper {
+    constructor() {
+        this.skills = ['JavaScript', 'Laravel', 'PHP', 'Vue.js', 'Vite', 'MySQL', 'HTML', 'CSS'];
+    }
+}
+
+function startWith(developer) {
+    console.log('Starting work with:', developer);
+}
+
+let needDeveloper = true;
+
+if (needDeveloper) {
+    startWith(new FullStackWebDeveloper());
+    console.log('Development started.');
+}
